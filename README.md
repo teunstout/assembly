@@ -1,8 +1,7 @@
 # Assembly
 
 This is just to get an idea of the different formats of assembly. But the most important thing learned from this is what needs to happen to actually run such a program.
-
-It needs to link the machine code with the operating systems commands:
+We need to link the machine code with the operating system's commands:
 
 **Machine Code**
 
@@ -29,7 +28,7 @@ ld -m elf_i386 -o hello_linux hello_linux.o
 
 ## Assemble for Windows
 
-This is not working yet but it was good enough to get an idea. So i won't fix this.
+This is not working yet, but it was good enough to get an idea. So I won't fix this.
 
 ```bash
 nasm -f win32 hello_windows.asm -o hello_windows.obj
